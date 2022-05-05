@@ -353,6 +353,7 @@ usr/local/lib/python3.9/dist-packages/PyYAML-6.0.dist-info
 usr/local/lib/python3.9/dist-packages/__pycache__/asgi_csrf.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/__pycache__/baseconv.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/__pycache__/click_default_group.cpython-39.pyc
+usr/local/lib/python3.9/dist-packages/__pycache__/tabulate.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/__pycache__/typing_extensions.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/aiofiles
 usr/local/lib/python3.9/dist-packages/aiofiles-0.8.0.dist-info
@@ -505,6 +506,16 @@ usr/local/lib/python3.9/dist-packages/datasette/views/__pycache__/database.cpyth
 usr/local/lib/python3.9/dist-packages/datasette/views/__pycache__/index.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette/views/__pycache__/special.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette/views/__pycache__/table.cpython-39.pyc
+usr/local/lib/python3.9/dist-packages/datasette_copyable-0.3.1.dist-info
+usr/local/lib/python3.9/dist-packages/datasette_copyable-0.3.1.dist-info/METADATA
+usr/local/lib/python3.9/dist-packages/datasette_copyable-0.3.1.dist-info/entry_points.txt
+usr/local/lib/python3.9/dist-packages/datasette_copyable/__pycache__/__init__.cpython-39.pyc
+usr/local/lib/python3.9/dist-packages/datasette_copyable/templates
+usr/local/lib/python3.9/dist-packages/datasette_copyable/templates/copyable.html
+usr/local/lib/python3.9/dist-packages/datasette_total_page_time-0.1.dist-info
+usr/local/lib/python3.9/dist-packages/datasette_total_page_time-0.1.dist-info/METADATA
+usr/local/lib/python3.9/dist-packages/datasette_total_page_time-0.1.dist-info/entry_points.txt
+usr/local/lib/python3.9/dist-packages/datasette_total_page_time/__pycache__/__init__.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette_upload_csvs-0.6.1.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_upload_csvs-0.6.1.dist-info/METADATA
 usr/local/lib/python3.9/dist-packages/datasette_upload_csvs-0.6.1.dist-info/entry_points.txt
