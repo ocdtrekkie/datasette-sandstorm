@@ -27,7 +27,7 @@ const pkgdef :Spk.PackageDefinition = (
 
     actions = [
       # Define your "new document" handlers here.
-      ( nounPhrase = (defaultText = "instance"),
+      ( nounPhrase = (defaultText = "dataset"),
         command = .myCommand
         # The command to run when starting for the first time. (".myCommand"
         # is just a constant defined at the bottom of the file.)
@@ -54,18 +54,11 @@ const pkgdef :Spk.PackageDefinition = (
         #marketBig = (svg = embed "path/to/market-big-300x300.svg"),
       ),
 
-      website = "http://example.com",
-      # This should be the app's main website url.
+      website = "https://datasette.io",
+      codeUrl = "https://github.com/ocdtrekkie/datasette-sandstorm",
+      license = (openSource = apache2),
 
-      codeUrl = "http://example.com",
-      # URL of the app's source code repository, e.g. a GitHub URL.
-      # Required if you specify a license requiring redistributing code, but optional otherwise.
-
-      license = (none = void),
-      # The license this package is distributed under.  See
-      # https://docs.sandstorm.io/en/latest/developing/publishing-apps/#license
-
-      categories = [],
+      categories = [science],
       # A list of categories/genres to which this app belongs, sorted with best fit first.
       # See the list of categories at
       # https://docs.sandstorm.io/en/latest/developing/publishing-apps/#categories
@@ -73,7 +66,7 @@ const pkgdef :Spk.PackageDefinition = (
       author = (
         # Fields relating to the author of this app.
 
-        contactEmail = "youremail@example.com",
+        contactEmail = "inbox@jacobweisz.com",
         # Email address to contact for any issues with this app. This includes end-user support
         # requests as well as app store administrator requests, so it is very important that this be a
         # valid address with someone paying attention to it.
@@ -92,7 +85,7 @@ const pkgdef :Spk.PackageDefinition = (
         # Further details including how to set up GPG and how to use keybase.io can be found
         # at https://docs.sandstorm.io/en/latest/developing/publishing-apps/#verify-your-identity
 
-        upstreamAuthor = "Example App Team",
+        upstreamAuthor = "Simon Willison",
         # Name of the original primary author of this app, if it is different from the person who
         # produced the Sandstorm package. Setting this implies that the author connected to the PGP
         # signature only "packaged" the app for Sandstorm, rather than developing the app.
@@ -114,7 +107,7 @@ const pkgdef :Spk.PackageDefinition = (
       # in an app store. Note that the Markdown is not permitted to contain HTML nor image tags (but
       # you can include a list of screenshots separately).
 
-      shortDescription = (defaultText = "one-to-three words"),
+      shortDescription = (defaultText = "data explorer"),
       # A very short (one-to-three words) description of what the app does. For example,
       # "Document editor", or "Notetaking", or "Email client". This will be displayed under the app
       # title in the grid view in the app market.
