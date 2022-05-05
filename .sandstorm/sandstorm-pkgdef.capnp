@@ -41,17 +41,11 @@ const pkgdef :Spk.PackageDefinition = (
     # case.
 
     metadata = (
-      # Data which is not needed specifically to execute the app, but is useful
-      # for purposes like marketing and display.  These fields are documented at
-      # https://docs.sandstorm.io/en/latest/developing/publishing-apps/#add-required-metadata
-      # and (in deeper detail) in the sandstorm source code, in the Metadata section of
-      # https://github.com/sandstorm-io/sandstorm/blob/master/src/sandstorm/package.capnp
       icons = (
-        # Various icons to represent the app in various contexts.
-        #appGrid = (svg = embed "path/to/appgrid-128x128.svg"),
-        #grain = (svg = embed "path/to/grain-24x24.svg"),
-        #market = (svg = embed "path/to/market-150x150.svg"),
-        #marketBig = (svg = embed "path/to/market-big-300x300.svg"),
+        appGrid = (svg = embed "datasette.svg"),
+        grain = (svg = embed "datasette.svg"),
+        market = (svg = embed "datasette.svg"),
+        marketBig = (svg = embed "datasette.svg"),
       ),
 
       website = "https://datasette.io",
@@ -86,10 +80,6 @@ const pkgdef :Spk.PackageDefinition = (
         # at https://docs.sandstorm.io/en/latest/developing/publishing-apps/#verify-your-identity
 
         upstreamAuthor = "Simon Willison",
-        # Name of the original primary author of this app, if it is different from the person who
-        # produced the Sandstorm package. Setting this implies that the author connected to the PGP
-        # signature only "packaged" the app for Sandstorm, rather than developing the app.
-        # Remove this line if you consider yourself as the author of the app.
       ),
 
       #pgpKeyring = embed "path/to/pgp-keyring",
@@ -102,15 +92,8 @@ const pkgdef :Spk.PackageDefinition = (
       #
       # Where `<key-id>` is a PGP key ID or email address associated with the key.
 
-      #description = (defaultText = embed "path/to/description.md"),
-      # The app's description in Github-flavored Markdown format, to be displayed e.g.
-      # in an app store. Note that the Markdown is not permitted to contain HTML nor image tags (but
-      # you can include a list of screenshots separately).
-
+      description = (defaultText = embed "description.md"),
       shortDescription = (defaultText = "Data explorer"),
-      # A very short (one-to-three words) description of what the app does. For example,
-      # "Document editor", or "Notetaking", or "Email client". This will be displayed under the app
-      # title in the grid view in the app market.
 
       screenshots = [
         # Screenshots to use for marketing purposes.  Examples below.
