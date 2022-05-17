@@ -10,6 +10,7 @@ etc/mime.types
 lib
 lib64
 opt/app/.sandstorm/launcher.sh
+opt/app/metadata.yml
 proc/cpuinfo
 sandstorm-http-bridge
 sandstorm-http-bridge-config
@@ -46,6 +47,7 @@ usr/lib/python3.9/__pycache__/csv.cpython-39.pyc
 usr/lib/python3.9/__pycache__/dataclasses.cpython-39.pyc
 usr/lib/python3.9/__pycache__/datetime.cpython-39.pyc
 usr/lib/python3.9/__pycache__/decimal.cpython-39.pyc
+usr/lib/python3.9/__pycache__/difflib.cpython-39.pyc
 usr/lib/python3.9/__pycache__/dis.cpython-39.pyc
 usr/lib/python3.9/__pycache__/enum.cpython-39.pyc
 usr/lib/python3.9/__pycache__/fnmatch.cpython-39.pyc
@@ -441,6 +443,10 @@ usr/local/lib/python3.9/dist-packages/anyio/__pycache__/__init__.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/anyio/__pycache__/from_thread.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/anyio/__pycache__/lowlevel.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/anyio/__pycache__/to_thread.cpython-39.pyc
+usr/local/lib/python3.9/dist-packages/anyio/_backends
+usr/local/lib/python3.9/dist-packages/anyio/_backends/__init__.py
+usr/local/lib/python3.9/dist-packages/anyio/_backends/__pycache__/__init__.cpython-39.pyc
+usr/local/lib/python3.9/dist-packages/anyio/_backends/__pycache__/_asyncio.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/anyio/_core
 usr/local/lib/python3.9/dist-packages/anyio/_core/__init__.py
 usr/local/lib/python3.9/dist-packages/anyio/_core/__pycache__/__init__.cpython-39.pyc
@@ -593,6 +599,7 @@ usr/local/lib/python3.9/dist-packages/datasette/static/cm-resize-1.0.1.min.js
 usr/local/lib/python3.9/dist-packages/datasette/static/codemirror-5.57.0-sql.min.js
 usr/local/lib/python3.9/dist-packages/datasette/static/codemirror-5.57.0.min.css
 usr/local/lib/python3.9/dist-packages/datasette/static/codemirror-5.57.0.min.js
+usr/local/lib/python3.9/dist-packages/datasette/static/favicon.png
 usr/local/lib/python3.9/dist-packages/datasette/static/sql-formatter-2.3.3.min.js
 usr/local/lib/python3.9/dist-packages/datasette/static/table.js
 usr/local/lib/python3.9/dist-packages/datasette/templates
@@ -611,6 +618,7 @@ usr/local/lib/python3.9/dist-packages/datasette/templates/row.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/show_json.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/table.html
 usr/local/lib/python3.9/dist-packages/datasette/utils
+usr/local/lib/python3.9/dist-packages/datasette/utils/__init__.py
 usr/local/lib/python3.9/dist-packages/datasette/utils/__pycache__/__init__.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette/utils/__pycache__/asgi.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette/utils/__pycache__/internal_db.cpython-39.pyc
@@ -643,6 +651,9 @@ usr/local/lib/python3.9/dist-packages/datasette_cluster_map-0.17.2.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_cluster_map-0.17.2.dist-info/METADATA
 usr/local/lib/python3.9/dist-packages/datasette_cluster_map-0.17.2.dist-info/entry_points.txt
 usr/local/lib/python3.9/dist-packages/datasette_cluster_map/__pycache__/__init__.cpython-39.pyc
+usr/local/lib/python3.9/dist-packages/datasette_cluster_map/static/datasette-cluster-map.js
+usr/local/lib/python3.9/dist-packages/datasette_cluster_map/static/leaflet.markercluster.css
+usr/local/lib/python3.9/dist-packages/datasette_cluster_map/static/leaflet.markercluster.min.js
 usr/local/lib/python3.9/dist-packages/datasette_configure_fts-1.1.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_configure_fts-1.1.dist-info/METADATA
 usr/local/lib/python3.9/dist-packages/datasette_configure_fts-1.1.dist-info/entry_points.txt
@@ -719,6 +730,10 @@ usr/local/lib/python3.9/dist-packages/datasette_leaflet-0.2.2.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_leaflet-0.2.2.dist-info/METADATA
 usr/local/lib/python3.9/dist-packages/datasette_leaflet-0.2.2.dist-info/entry_points.txt
 usr/local/lib/python3.9/dist-packages/datasette_leaflet/__pycache__/__init__.cpython-39.pyc
+usr/local/lib/python3.9/dist-packages/datasette_leaflet/static/images/marker-icon.png
+usr/local/lib/python3.9/dist-packages/datasette_leaflet/static/images/marker-shadow.png
+usr/local/lib/python3.9/dist-packages/datasette_leaflet/static/leaflet-v1.7.1.css
+usr/local/lib/python3.9/dist-packages/datasette_leaflet/static/leaflet-v1.7.1.js
 usr/local/lib/python3.9/dist-packages/datasette_leaflet_freedraw-0.3.1.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_leaflet_freedraw-0.3.1.dist-info/METADATA
 usr/local/lib/python3.9/dist-packages/datasette_leaflet_freedraw-0.3.1.dist-info/entry_points.txt
@@ -797,9 +812,16 @@ usr/local/lib/python3.9/dist-packages/datasette_total_page_time/__pycache__/__in
 usr/local/lib/python3.9/dist-packages/datasette_upload_csvs-0.6.1.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_upload_csvs-0.6.1.dist-info/METADATA
 usr/local/lib/python3.9/dist-packages/datasette_upload_csvs-0.6.1.dist-info/entry_points.txt
+usr/local/lib/python3.9/dist-packages/datasette_upload_csvs/__init__.py
 usr/local/lib/python3.9/dist-packages/datasette_upload_csvs/__pycache__/__init__.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette_upload_csvs/templates
 usr/local/lib/python3.9/dist-packages/datasette_upload_csvs/templates/upload_csv.html
+usr/local/lib/python3.9/dist-packages/datasette_upload_dbs-0.1.1.dist-info
+usr/local/lib/python3.9/dist-packages/datasette_upload_dbs-0.1.1.dist-info/METADATA
+usr/local/lib/python3.9/dist-packages/datasette_upload_dbs-0.1.1.dist-info/entry_points.txt
+usr/local/lib/python3.9/dist-packages/datasette_upload_dbs/__pycache__/__init__.cpython-39.pyc
+usr/local/lib/python3.9/dist-packages/datasette_upload_dbs/templates
+usr/local/lib/python3.9/dist-packages/datasette_upload_dbs/templates/upload_dbs.html
 usr/local/lib/python3.9/dist-packages/datasette_write-0.2.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_write-0.2.dist-info/METADATA
 usr/local/lib/python3.9/dist-packages/datasette_write-0.2.dist-info/entry_points.txt

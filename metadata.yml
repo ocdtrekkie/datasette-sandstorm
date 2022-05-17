@@ -1,0 +1,3 @@
+plugins:
+  datasette-upload-dbs:
+    directory: /var/databases
