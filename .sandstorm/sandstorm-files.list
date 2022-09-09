@@ -840,6 +840,10 @@ usr/local/lib/python3.9/dist-packages/datasette_rure-0.3.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_rure-0.3.dist-info/METADATA
 usr/local/lib/python3.9/dist-packages/datasette_rure-0.3.dist-info/entry_points.txt
 usr/local/lib/python3.9/dist-packages/datasette_rure/__pycache__/__init__.cpython-39.pyc
+usr/local/lib/python3.9/dist-packages/datasette_sandstorm_support-0.1.dist-info
+usr/local/lib/python3.9/dist-packages/datasette_sandstorm_support-0.1.dist-info/METADATA
+usr/local/lib/python3.9/dist-packages/datasette_sandstorm_support-0.1.dist-info/entry_points.txt
+usr/local/lib/python3.9/dist-packages/datasette_sandstorm_support/__pycache__/__init__.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette_saved_queries-0.2.1.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_saved_queries-0.2.1.dist-info/METADATA
 usr/local/lib/python3.9/dist-packages/datasette_saved_queries-0.2.1.dist-info/entry_points.txt
@@ -886,9 +890,9 @@ usr/local/lib/python3.9/dist-packages/datasette_upload_csvs/__init__.py
 usr/local/lib/python3.9/dist-packages/datasette_upload_csvs/__pycache__/__init__.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette_upload_csvs/templates
 usr/local/lib/python3.9/dist-packages/datasette_upload_csvs/templates/upload_csv.html
-usr/local/lib/python3.9/dist-packages/datasette_upload_dbs-0.1.1.dist-info
-usr/local/lib/python3.9/dist-packages/datasette_upload_dbs-0.1.1.dist-info/METADATA
-usr/local/lib/python3.9/dist-packages/datasette_upload_dbs-0.1.1.dist-info/entry_points.txt
+usr/local/lib/python3.9/dist-packages/datasette_upload_dbs-0.1.2.dist-info
+usr/local/lib/python3.9/dist-packages/datasette_upload_dbs-0.1.2.dist-info/METADATA
+usr/local/lib/python3.9/dist-packages/datasette_upload_dbs-0.1.2.dist-info/entry_points.txt
 usr/local/lib/python3.9/dist-packages/datasette_upload_dbs/__init__.py
 usr/local/lib/python3.9/dist-packages/datasette_upload_dbs/__pycache__/__init__.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette_upload_dbs/templates
