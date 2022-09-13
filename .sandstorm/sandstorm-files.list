@@ -648,11 +648,14 @@ usr/local/lib/python3.9/dist-packages/datasette/templates/_description_source_li
 usr/local/lib/python3.9/dist-packages/datasette/templates/_footer.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/_suggested_facets.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/_table.html
+usr/local/lib/python3.9/dist-packages/datasette/templates/allow_debug.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/base.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/database.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/error.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/index.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/messages_debug.html
+usr/local/lib/python3.9/dist-packages/datasette/templates/patterns.html
+usr/local/lib/python3.9/dist-packages/datasette/templates/permissions_debug.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/row.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/show_json.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/table.html
@@ -903,7 +906,9 @@ usr/local/lib/python3.9/dist-packages/datasette_vega-0.6.2.dist-info/entry_point
 usr/local/lib/python3.9/dist-packages/datasette_vega/__pycache__/__init__.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette_vega/static
 usr/local/lib/python3.9/dist-packages/datasette_vega/static/main.08f5d3d8.js
+usr/local/lib/python3.9/dist-packages/datasette_vega/static/main.08f5d3d8.js.map
 usr/local/lib/python3.9/dist-packages/datasette_vega/static/main.2acbb312.css
+usr/local/lib/python3.9/dist-packages/datasette_vega/static/main.2acbb312.css.map
 usr/local/lib/python3.9/dist-packages/datasette_write-0.2.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_write-0.2.dist-info/METADATA
 usr/local/lib/python3.9/dist-packages/datasette_write-0.2.dist-info/entry_points.txt
@@ -1626,8 +1631,7 @@ usr/local/lib/python3.9/dist-packages/tatsu/util/__pycache__/__init__.cpython-39
 usr/local/lib/python3.9/dist-packages/tatsu/util/__pycache__/_common.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/tatsu/util/__pycache__/misc.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/tatsu/util/__pycache__/unicode_characters.cpython-39.pyc
-usr/local/lib/python3.9/dist-packages/traitlets-5.3.0.dist-info
-usr/local/lib/python3.9/dist-packages/traitlets-5.3.0.dist-info/entry_points.txt
+usr/local/lib/python3.9/dist-packages/traitlets-5.4.0.dist-info
 usr/local/lib/python3.9/dist-packages/typing_extensions-4.3.0.dist-info
 usr/local/lib/python3.9/dist-packages/uvicorn
 usr/local/lib/python3.9/dist-packages/uvicorn-0.18.3.dist-info
