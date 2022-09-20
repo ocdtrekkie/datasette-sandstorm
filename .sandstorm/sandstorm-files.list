@@ -656,6 +656,7 @@ usr/local/lib/python3.9/dist-packages/datasette/templates/index.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/messages_debug.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/patterns.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/permissions_debug.html
+usr/local/lib/python3.9/dist-packages/datasette/templates/query.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/row.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/show_json.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/table.html
@@ -843,9 +844,9 @@ usr/local/lib/python3.9/dist-packages/datasette_rure-0.3.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_rure-0.3.dist-info/METADATA
 usr/local/lib/python3.9/dist-packages/datasette_rure-0.3.dist-info/entry_points.txt
 usr/local/lib/python3.9/dist-packages/datasette_rure/__pycache__/__init__.cpython-39.pyc
-usr/local/lib/python3.9/dist-packages/datasette_sandstorm_support-0.1.dist-info
-usr/local/lib/python3.9/dist-packages/datasette_sandstorm_support-0.1.dist-info/METADATA
-usr/local/lib/python3.9/dist-packages/datasette_sandstorm_support-0.1.dist-info/entry_points.txt
+usr/local/lib/python3.9/dist-packages/datasette_sandstorm_support-0.2.dist-info
+usr/local/lib/python3.9/dist-packages/datasette_sandstorm_support-0.2.dist-info/METADATA
+usr/local/lib/python3.9/dist-packages/datasette_sandstorm_support-0.2.dist-info/entry_points.txt
 usr/local/lib/python3.9/dist-packages/datasette_sandstorm_support/__pycache__/__init__.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette_saved_queries-0.2.1.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_saved_queries-0.2.1.dist-info/METADATA
