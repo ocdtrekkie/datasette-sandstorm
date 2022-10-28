@@ -605,8 +605,8 @@ usr/local/lib/python3.9/dist-packages/click/__pycache__/utils.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/click_default_group_wheel-1.2.2.dist-info
 usr/local/lib/python3.9/dist-packages/cloudpickle-2.2.0.dist-info
 usr/local/lib/python3.9/dist-packages/datasette
-usr/local/lib/python3.9/dist-packages/datasette-0.62.dist-info
-usr/local/lib/python3.9/dist-packages/datasette-0.62.dist-info/entry_points.txt
+usr/local/lib/python3.9/dist-packages/datasette-0.63.dist-info
+usr/local/lib/python3.9/dist-packages/datasette-0.63.dist-info/entry_points.txt
 usr/local/lib/python3.9/dist-packages/datasette/__pycache__/__init__.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette/__pycache__/actor_auth_cookie.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette/__pycache__/app.cpython-39.pyc
@@ -649,6 +649,7 @@ usr/local/lib/python3.9/dist-packages/datasette/templates
 usr/local/lib/python3.9/dist-packages/datasette/templates/_close_open_menus.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/_codemirror.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/_codemirror_foot.html
+usr/local/lib/python3.9/dist-packages/datasette/templates/_crumbs.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/_description_source_license.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/_footer.html
 usr/local/lib/python3.9/dist-packages/datasette/templates/_suggested_facets.html
@@ -807,13 +808,13 @@ usr/local/lib/python3.9/dist-packages/datasette_leaflet_geojson-0.8.dist-info/ME
 usr/local/lib/python3.9/dist-packages/datasette_leaflet_geojson-0.8.dist-info/entry_points.txt
 usr/local/lib/python3.9/dist-packages/datasette_leaflet_geojson/__pycache__/__init__.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette_leaflet_geojson/static/datasette-leaflet-geojson.js
-usr/local/lib/python3.9/dist-packages/datasette_nteract_data_explorer-0.4.2.dist-info
-usr/local/lib/python3.9/dist-packages/datasette_nteract_data_explorer-0.4.2.dist-info/METADATA
-usr/local/lib/python3.9/dist-packages/datasette_nteract_data_explorer-0.4.2.dist-info/entry_points.txt
+usr/local/lib/python3.9/dist-packages/datasette_nteract_data_explorer-0.5.1.dist-info
+usr/local/lib/python3.9/dist-packages/datasette_nteract_data_explorer-0.5.1.dist-info/METADATA
+usr/local/lib/python3.9/dist-packages/datasette_nteract_data_explorer-0.5.1.dist-info/entry_points.txt
 usr/local/lib/python3.9/dist-packages/datasette_nteract_data_explorer/__pycache__/__init__.cpython-39.pyc
 usr/local/lib/python3.9/dist-packages/datasette_nteract_data_explorer/static
-usr/local/lib/python3.9/dist-packages/datasette_nteract_data_explorer/static/DatasetteDataExplorer.563ad63e.js
-usr/local/lib/python3.9/dist-packages/datasette_nteract_data_explorer/static/index.204e714b.js
+usr/local/lib/python3.9/dist-packages/datasette_nteract_data_explorer/static/DatasetteDataExplorer.f54d22b8.js
+usr/local/lib/python3.9/dist-packages/datasette_nteract_data_explorer/static/index.bfd4b775.js
 usr/local/lib/python3.9/dist-packages/datasette_packages-0.2.dist-info
 usr/local/lib/python3.9/dist-packages/datasette_packages-0.2.dist-info/METADATA
 usr/local/lib/python3.9/dist-packages/datasette_packages-0.2.dist-info/entry_points.txt

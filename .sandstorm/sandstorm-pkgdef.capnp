@@ -19,7 +19,7 @@ const pkgdef :Spk.PackageDefinition = (
 
     appTitle = (defaultText = "Datasette"),
 
-    appVersion = 1,  # Increment this for every release.
+    appVersion = 2,  # Increment this for every release.
 
     appMarketingVersion = (defaultText = (embed "version")),
     # Human-readable representation of appVersion. Should match the way you
@@ -83,10 +83,7 @@ const pkgdef :Spk.PackageDefinition = (
         (width = 1703, height = 923, jpeg = embed "screenshot1.jpg"),
         (width = 1703, height = 923, jpeg = embed "screenshot2.jpg"),
       ],
-      #changeLog = (defaultText = embed "path/to/sandstorm-specific/changelog.md"),
-      # Documents the history of changes in Github-flavored markdown format (with the same restrictions
-      # as govern `description`). We recommend formatting this with an H1 heading for each version
-      # followed by a bullet list of changes.
+      changeLog = (defaultText = embed "changelog.md"),
     ),
   ),
 
